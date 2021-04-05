@@ -1,0 +1,250 @@
+/* Smooth Scroll Behavior */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Custom Digital Font */
+@font-face {
+    font-family: 'Digital';
+    src: url('../fonts/digital7.ttf');
+}
+
+/* Anchor styling */
+a {
+    font-family:'Digital';
+}
+
+/* Paragraph Text Styling */
+p {
+   
+    font-family: 'Digital';
+    font-size: 41px;
+    color: white;
+    text-align: center;
+   
+}
+
+/* Page Background Image and Custom RocketShip Cursor */
+body {
+  cursor: url('../cursor/Rocket.cur'), default;
+  background-image: url("../images/Space.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100% auto;
+  background-color:black;
+  
+
+}
+
+/* Header Styling */
+header {
+    border-radius: 50%;
+    width: 28em; 
+    height:28em;
+    position:static;
+    font-family:'Digital','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #00b7ff;
+
+}
+
+/* Self Photo in Header Styling */
+.header-img {
+    border-radius: 50%;
+    width: 28em;
+    height: 28em;
+    background: url(../images/AhoBG.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Header text styling and position */
+header h1 {
+    position: relative;
+    left: 12%;
+    bottom: 48%;
+    font-size: 80px;
+}
+
+/* 3d Flip Nav container */
+div.flip-3d {
+    position:relative;
+	perspective: 1200px;
+	width: 17%;
+	display:inline-block;
+}
+
+/* 3d Flip Nav transform attrib */
+div.flip-3d figure {
+	position: relative;
+	transform-style: preserve-3d;
+	transition: 1s transform;
+	font-size: 1.6rem;
+}
+/* 3d Flip Nav Image sizing */
+div.flip-3d figure img {
+	width: 100%;
+	height: auto;
+
+}
+
+/* 3d Flip Nav Text */
+div.flip-3d figure figcaption {
+    position: absolute;
+    width: 100%;
+    height: 104%;
+    top: 0;
+    /* background: red; */
+    text-align: center;
+    padding-top: 102%;
+    font-family: 'Digital';
+    font-size: 158%;
+    color:#00b7ff;
+}
+
+/* 3d Flip Nav Hover Actions */
+div.flip-3d:hover figure { 
+	transform: rotateY(.5turn);
+}
+div.flip-3d:hover figure figcaption {
+	opacity: 1;
+}
+
+
+  /* Earth Planet Nav Container Position */
+div.Earth {
+    position: relative;
+    bottom: 409px;
+    right: -416px;
+}
+
+/* Mechanical Planet Nav Container Position */
+div.Mech {
+    position: relative;
+    bottom: 761px;
+    right: -730px;
+}
+
+/* Contact Me Satellite Container Position */
+div.Satellite {
+    width: 120%;
+    position: relative;
+    bottom: 788px;
+    right: -910px;
+}
+/* Satellite Caption Position */
+.Satellite figcaption {
+    margin-top:-39%;
+
+}
+
+/* About Me section Container */
+.about-me {
+    width:61%;
+    margin-bottom: 30%;
+    padding: 50px;
+    height: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #034b77;
+    color: #ffffff;
+    word-wrap:break-word
+}
+/* About me section image */
+.about-me img {
+    margin-left: 66px;
+    max-width: 80%;
+    margin-top: -4%;
+}
+
+/* My Projects Section Container */
+.mechbody {
+    width:61%;
+    margin-bottom: 30%;
+    padding: 50px;
+    height: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    word-wrap:break-word
+}
+
+/* My Projects section image */
+.mechbody img {
+    margin-left: -50px;
+    max-width: 51%;
+    margin-top: -4.5%;
+}
+
+/* My Projects Section Description Text */
+.mechbody p {
+    margin-top: -383px;
+    margin-left: 521px;
+    font-family: 'Digital';
+    font-size: 41px;
+    color: white;
+    text-align: center;
+}
+
+/* Catfishing App Picture */
+.mechbody figure img {
+    margin-left: 566px;
+    max-width: 38%;
+    margin-top: 0.1%;
+}
+
+
+
+/* Catfishing and Prework HTML Captions Positioning */
+.mechbody figcaption {
+    text-align:center;
+    margin-left: 548px;
+    font-family: 'Digital';
+    font-size: 60px;
+    color: chartreuse;
+}
+
+/* Click the Pics To Launch App Site Text Position */
+.ClickHint {
+    margin-top: 27%;
+    margin-left: -98%;
+}
+
+/* Contact me Section Container */
+.contact-me {
+    width:61%;
+    margin-bottom: 30%;
+    padding: 50px;
+    height: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    word-wrap:break-word
+}
+
+/* Contact Me section image */
+.contact-me img {
+    margin-left: 243px;
+    max-width: 54%;
+    margin-top: -4%;
+}
+
+
+/* Contact me details container */
+.contactlist {
+    margin: 3% 2%;
+    display: inline-flex;
+    font-size: 50px;
+    font-family: 'Digital';
+}
+
+/* Phone number spacing in contact list */
+.contactlist div {
+    padding-left: 10%;
+    white-space: nowrap;
+}
+
+/* Shrinks Box Borders In Around Sections */
+* {
+    box-sizing: border-box;
+}
+
