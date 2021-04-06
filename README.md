@@ -9,7 +9,7 @@ traditional fashion, as I tab indexed the elements. The page is not optimized fo
 
 scaling, resizing and using different devices but is a work in progress and will 
 
-eventually be.
+eventually be. Created and Best Viewed at 1920 x 1080 @ 100% Scaling.
 
 Link to Site: https://vidfinnx.github.io/Vidport/
 
